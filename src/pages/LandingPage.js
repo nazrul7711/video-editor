@@ -56,7 +56,7 @@ function LandingPage() {
         <nav>
           <div className={style.searchVid}>
             <FiSearch />
-            <input type="text" placeholder="search..." />
+            <input type="text" placeholder="Search..." />
           </div>
           <div className={style.navOther}>
             <FaRegQuestionCircle />

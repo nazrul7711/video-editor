@@ -16,7 +16,7 @@
   cursor: pointer;
   width: 100%;
 }
-.sidebar svg{
+.sidebar svg {
   height: 100px;
   width: 100px;
 }
@@ -32,9 +32,8 @@
 }
 
 .display {
-
 }
-.display video{
+.display video {
   margin: 30px 20px;
 }
 .stats {
@@ -42,17 +41,25 @@
   grid-row: 5/7;
   background-color: rgb(7, 151, 7);
 }
-.trimSection,.textSection,.cropSection,.mergeSection{
+.trimSection,
+.textSection,
+.cropSection,
+.mergeSection {
   margin-left: 15px;
 }
-.trimSection input,.textSection input,.cropSection input,.mergeSection input{
+.trimSection input,
+.textSection input,
+.cropSection input,
+.mergeSection input {
   padding: 10px;
   margin-bottom: 7px;
   border-radius: 5px;
   border: 1px solid black;
   background-color: transparent;
 }
-.trimSection button,.textSection button,.cropSection button{
+.trimSection button,
+.textSection button,
+.cropSection button {
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px 15px;
@@ -60,4 +67,3 @@
   cursor: pointer;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
-

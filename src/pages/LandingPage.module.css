@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  width: 100vw;
+}
+.side {
+  height: 100vh;
+  flex:1;
+  background-color: aquamarine;
+
+}
+.main {
+   flex:5;
+  background-color: antiquewhite;
+  
+}
+.main nav{
+  margin-top: 20px;
+}
+.searchVid{
+  display: flex;
+  align-items: center;
+}
+.searchVid input{
+  padding: 10px;
+  padding-left: 25px;
+}
+.searchVid svg{
+  position: relative;
+  left: 25px;
+
+
+}
+.main nav{
+  display: flex;
+  justify-content: space-between;
+}
+.navOther{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin-right: 50px;
+  align-items: center;
+}
+.navOther img{
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.project{
+  display: flex;
+
+}
+.project button{
+  margin-left: 20px;
+  padding: 5px;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.sideBarMenuTop{
+
+  padding: 15px;
+}
+.dekho{
+  display: block;
+  
+}
+
+
+.sideBarMenuTop *{
+  margin-top: 20px;
+}
+.sideBarMenu div{
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  gap:15px;
+  align-items: center;
+}
+.sideBarMenu svg{
+  width: 30px;
+  height: 30px;
+}
